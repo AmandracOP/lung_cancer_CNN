@@ -1,0 +1,89 @@
+devzzz/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# C extensions
+*.so
+
+# Environment / Packages
+.env
+.venv
+env/
+venv/
+devzzz/
+build/
+dist/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+coverage/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Notebook output files
+*.nbconvert/
+*.nb.html
+*.nb.json
+
+# Environments
+*.env
+*.venv
+*.virtualenv
+*.virtualenvs/
+
+# VSCode settings
+.vscode/
+
+# PyCharm project files
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Model weights and checkpoints
+models/
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+*.pt
+*.pth
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Large data files
+data/
+!data/sample_data/    # Exclude sample data if needed, adjust based on your sample data path
+
+
+# System files
+*.bak
+*~
+*.swp
+*.swo
+Thumbs.db
