@@ -23,7 +23,7 @@ for model_name, base_model in get_base_models().items():
     history = model.fit(
         train_gen,
         validation_data=val_gen,
-        epochs=10,  # Increase epochs for better accuracy
+        epochs=100,  # Increase epochs for better accuracy
     )
     
     # Save the model
